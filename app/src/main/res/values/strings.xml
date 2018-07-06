@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Score Counter  </string>
+    <string name="Team1">Team A</string>
+    <string name="Team2">Team B</string>
+    <string name="threePoint">+3 Point</string>
+    <string name="twoPoint">+2 Point</string>
+    <string name="freethrow">Free Throw</string>
+    <string name="reset">Reset</string>
+    <string name="ResetMessage">Score is Reset</string>
+    <string name="Zero">0</string>
+</resources>

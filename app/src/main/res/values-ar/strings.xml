@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">عددالنقاط</string>
+    <string name="freethrow">ضربه حره</string>
+    <string name="threePoint">ثلاثه نقاط</string>
+    <string name="twoPoint">نقطتين</string>
+    <string name="reset">حذف</string>
+    <string name="Team2">الفريق الثاني</string>
+    <string name="Team1">الفريق الاول</string>
+    <string name="ResetMessage">تم حذف الإسكور</string>
+    <string name="Zero">0</string>
+
+</resources>

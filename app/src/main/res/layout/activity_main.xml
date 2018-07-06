@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.waelmelsh.AmericanFootballScoreApp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <TextView
+                style="@style/Teamtxtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Team1" />
+
+            <TextView
+                android:id="@+id/txtScoreTeamA"
+                style="@style/Scoretxtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Zero" />
+
+            <Button
+                android:id="@+id/btnTeamAPlus3"
+                style="@style/btnstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Aplus3"
+                android:text="@string/threePoint" />
+
+            <Button
+                android:id="@+id/btnTeamAPlus2"
+                style="@style/btnstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Aplus2"
+                android:text="@string/twoPoint" />
+
+            <Button
+                android:id="@+id/btnTeamAFreeThrow"
+                style="@style/btnstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="AFreeThrow"
+                android:text="@string/freethrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray" >
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Teamtxtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Team2" />
+
+            <TextView
+                android:id="@+id/txtScoreTeamB"
+                style="@style/Scoretxtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Zero" />
+
+            <Button
+                android:id="@+id/btnTeamBPlus3"
+                style="@style/btnstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Bplus3"
+                android:text="@string/threePoint" />
+
+            <Button
+                android:id="@+id/btnTeamBPlus2"
+                style="@style/btnstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Bplus2"
+                android:text="@string/twoPoint" />
+
+            <Button
+                android:id="@+id/btnTeamBFreeThrow"
+                style="@style/btnstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="BFreeThrow"
+                android:text="@string/freethrow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btnReset"
+            style="@style/btnstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:onClick="DoReset"
+            android:text="@string/reset" />
+    </LinearLayout>
+
+</LinearLayout>

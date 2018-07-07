@@ -116,7 +116,6 @@
         android:orientation="vertical"
         >
         <Button
-
             android:id="@+id/btnReset"
             style="@style/btnstyle"
             android:layout_width="wrap_content"
